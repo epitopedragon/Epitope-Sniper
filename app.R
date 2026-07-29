@@ -60,18 +60,18 @@ ui <- dashboardPage(
               )
       ),
       tabItem(tabName = "cite",
-              fluidRow(
-                box(
-                  title = "How to Cite NetMHCPan Epitope Sniper",
-                  status = "primary",
-                  solidHeader = TRUE,
-                  width = 12,
-                  h3("Citation Information"),
-                  p("NetMHCPan Epitope Sniper: An Interactive Shiny Application for High-Throughput Epitope Screening."),
-                  wellPanel(tags$code("Queiroz Jr., et al. (2026). NetMHCPan Epitope Sniper."))
-                )
-              )
-      )
+        fluidRow(
+          box(
+            title = "How to Cite NetMHCPan Epitope Sniper",
+            status = "primary",
+            solidHeader = TRUE,
+            width = 12,
+            h3("Citation Information"),
+            p("NetMHCPan Epitope Sniper: An Interactive Shiny Application for High-Throughput Epitope Screening."),
+            wellPanel(tags$code("Queiroz Junior, M. A. (2026). NetMHCPan Epitope Sniper. Zenodo. DOI: https://doi.org/10.5281/zenodo.21687976"))
+          )
+        )
+)
     )
   )
 )
